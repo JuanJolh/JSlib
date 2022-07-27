@@ -24,7 +24,7 @@ function guardarprocarrito(productos){
 
 function render(){
     let productos = obtproductosLS();
-    let contenido;
+    let contenido = ``;
 
     for (let producto of productos){
         contenido += `<div class="col-md-4 py-2">
