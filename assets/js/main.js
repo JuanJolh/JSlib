@@ -88,6 +88,7 @@ function vaciarCarrito(){
 guardarproductosLS(productos);
 actualizarcarrito();
 render();
+console.log(productos);
 
 function mostraralerta(){
     Swal.fire({
